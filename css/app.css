@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	background-color: #fff;
+} 
+body {
+	height: 100%;
+	display: block;
+	overflow: hidden;
+} 
+section[role="region"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+} 
+.back-inicio {
+	z-index: 0;
+}
+.move-horario-view  {
+	z-index: 10;
+	transform: translateX(-100%);
+	transition: all 0.2s;
+}
+.back-horario-view  {
+	z-index: 10;	
+	transform: translateX(0%);
+	transition: all 0.4s;
+}
+.move-twitter-view  {
+	z-index: 20;
+	transform: translateX(-200%);
+	transition: all 0.2s;
+}
+.back-twitter-view  {
+	z-index: 20;
+	transform: translateX(0%);
+	transition: all 0.4s;
+}
+.move-info-view  {
+	z-index: 30;
+	transform: translateX(-300%);
+	transition: all 0.2s;
+}
+.back-info-view  {
+	z-index: 30;
+	transform: translateX(0%);
+	transition: all 1s;
+}
+#home-view {
+	width: 100%;
+	left: 0%;
+}
+#horario-view {
+	width: 100%;
+	left: 100%;
+}
+#twitter-view {
+	width: 100%;
+	left: 200%;
+}
+#info-view {
+	width: 100%;
+	left: 300%;
+}
