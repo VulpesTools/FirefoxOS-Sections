@@ -97,9 +97,10 @@
 
 /* Graphic content */
 [data-type="list"] aside {
+  padding-top: 1rem;
   float: left;
   margin: 0 0.5rem 0 0;
-  height: 100%;
+  height: 5rem;
   position: relative;
   z-index: 2;
 }
@@ -128,8 +129,8 @@
 [data-type="list"] aside img {
   display: block;
   overflow: hidden;
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   background: transparent center center / cover;
   position: relative;
   z-index: 1;
@@ -201,4 +202,10 @@
 
 [data-type="list"] [data-type="edit"] li > a:active:after {
   display: none;
+}
+[data-type="list"] li > a aside.pack-end.install {
+    background: url("images/download.png") no-repeat scroll 0% 0% transparent;
+    height: 3rem;
+    width: 3rem;
+    margin: 1.5rem 0px 0px 1rem;
 }
