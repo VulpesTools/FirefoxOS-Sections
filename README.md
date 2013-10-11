@@ -1,1 +1,1 @@
-## Firefox OS Template with sections
+## [Sections] Firefox OS Template 
